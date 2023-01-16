@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoIT Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <form class="search-form" id="search-form">
+        <input
+          class="search-form__input"
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="search-form__button">
+          <img
+            src="./images/search.png"
+            alt="Search icon"
+            class="search-form__button--icon"
+          />
+        </button>
+      </form>
+    </header>
+    <main>
+      <div class="gallery"></div>
+    </main>
+    <!-- load more button -->
+    <!-- <button type="button" class="load-more hidden">Load more</button> -->
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
